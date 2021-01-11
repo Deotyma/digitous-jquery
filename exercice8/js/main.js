@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $(".btn btn-success").click(displaySecretText());
+    $(".btn").click(displaySecretText());
 });
