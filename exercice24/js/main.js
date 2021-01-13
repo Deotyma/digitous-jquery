@@ -1,9 +1,7 @@
 $(document).ready(function() {
     $(".btn").click(function() {
         $("#bg").animate({
-                marginLeft: '100px',
-
-            },
-            1000);
+            marginLeft: "+=100px"
+        });
     });
 });
